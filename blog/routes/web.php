@@ -16,5 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/test',function(){
-    return 'test.测试';
+    return 'test.测a';
+});
+
+
+Route::get('/ccc',function(){
+    return '/cccc';
 });
