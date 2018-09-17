@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Rotue::get("/user",function(){
+	return "user";
+});
+
